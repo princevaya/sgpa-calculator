@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator - Semester 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SGPA Calculator - Semester 1</h1>
+        <form id="sgpaForm">
+            <!-- CSE1001 -->
+            <div class="input-group">
+                <label for="cse1001">CSE1001 - Introduction to Programming (5 credits):</label>
+                <select id="cse1001" class="grade-input">
+                    <option value="">Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <!-- Repeat the same structure for other subjects -->
+            <!-- CSE1002 -->
+            <div class="input-group">
+                <label for="cse1002">CSE1002 - Basic Electrical and Electronics Engineering (5 credits):</label>
+                <select id="cse1002" class="grade-input">
+                    <option value="">Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <!-- CSE1003 -->
+            <div class="input-group">
+                <label for="cse1003">CSE1003 - Computational Thinking (2 credits):</label>
+                <select id="cse1003" class="grade-input">
+                    <option value="">Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <!-- CSE1004 -->
+            <div class="input-group">
+                <label for="cse1004">CSE1004 - Applied Computational Mathematics - I (4 credits):</label>
+                <select id="cse1004" class="grade-input">
+                    <option value="">Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <!-- CSE1005 -->
+            <div class="input-group">
+                <label for="cse1005">CSE1005 - Soft Skills (4 credits):</label>
+                <select id="cse1005" class="grade-input">
+                    <option value="">Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <button type="button" id="calculateButton">Calculate SGPA</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
